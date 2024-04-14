@@ -1,0 +1,35 @@
+   Normal html and Semantic html:
+
+Normal HTML elements are those that do not carry any specific meaning about their content. They are generic elements used for structuring a webpage without carrying any additional information about the content they contain. Examples include <div>, <span>, and <p>.
+
+Semantic HTML elements, on the other hand, carry meaning about the content they contain. They provide context to the content, making it more descriptive and understandable for both developers and browsers. Examples include <header>, <footer>, <nav>, <article>, <section>, <aside>, <figure>, and <figcaption>. Semantic elements help improve accessibility, search engine optimization (SEO), and maintainability(readability) of the code.
+
+The disparity between closing tags and self-closing tags in HTML lies in how they denote the end of an element. Closing tags are used to explicitly mark the end of an element and are required for all elements that contain content. For example:
+
+html
+<p>This is a paragraph.</p>
+
+
+Self-closing tags, also known as void or empty tags, are used for elements that do not contain any content or do not require a closing tag. They end with a forward slash before the closing angle bracket. For example:
+
+html
+<img src="image.jpg" alt="Description" />
+<input type="text" />
+
+
+In HTML, elements are categorized into two main types based on their display behavior: inline elements and block elements.
+
+Inline elements:
+- Do not start on a new line.
+- Only take up as much width as necessary.
+- Allow other elements to be displayed on the same line.
+- Examples include <span>, <a>, <strong>, <em>, <img>, and <input>.
+
+Block elements:
+- Start on a new line.
+- Take up the full width available, by default.
+- Force subsequent elements to appear on a new line.
+- Examples include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <header>, <footer>, <section>, <article>, <nav>, and <aside>.
+
+Understanding the distinction between inline and block elements helps in structuring and styling web content effectively.
+
